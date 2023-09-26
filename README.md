@@ -71,7 +71,7 @@ In order to run this project you need:
 
 You have to have tools like: 
 
-- PostgreSQL
+- Ruby
 
 ### Setup
 
