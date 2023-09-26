@@ -44,9 +44,9 @@ def input_morse_code (user_input)
 end
 
 def change_into_word(word)
-  letterArr = word.split
-  letterArr.map! do  |n| n = MORSE_CODE_TABLE[n] end
-  return letterArr.join + " "
+  letter_arr = word.split
+  letter_arr.map! do  |n| n = MORSE_CODE_TABLE[n] end
+  return letter_arr.join + " "
 end
  
 
@@ -56,5 +56,3 @@ puts "Please enter some morse code in the terminal: "
 user_input = gets.chomp
 
 input_morse_code(user_input)
-# input_morse_code('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
-
