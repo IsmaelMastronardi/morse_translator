@@ -49,8 +49,6 @@ def change_into_word(word)
   "#{letter_arr.join} "
 end
 
-
-
 puts 'Please enter some morse code in the terminal: '
 
 user_input = gets.chomp
